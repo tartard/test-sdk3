@@ -11,7 +11,7 @@
 
     <properties>
         <!-- Alfresco Maven Plugin version to use -->
-        <alfresco.sdk.version>3.0.1</alfresco.sdk.version>
+        <alfresco.sdk.version>3.0.2-SNAPSHOT</alfresco.sdk.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
@@ -134,7 +134,7 @@
                     <!-- We don't need the share.war if we don't have any UI extensions -->
                     <enableShare>false</enableShare>
                     <!-- Enable the REST API Explorer -->
-                    <enableApiExplorer>true</enableApiExplorer>
+                    <enableApiExplorer>false</enableApiExplorer>
 
                     <!--
                        JARs and AMPs that should be overlayed/applied to the Platform/Repository WAR
